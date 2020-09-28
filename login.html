@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+        <link rel="stylesheet" href="jquery-ui-datepicker/jquery-ui.min.css" type="text/css" />
+        <link rel="stylesheet" href="fontawesome.min.css" />
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:1220px)" href="phone.css">
+        <title>
+            Login Page
+        </title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logo.jpg" alt="myonlinemeal.com">
+            </div>
+
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services-container">Services</a></li>
+                <li class="item"><a href="#client-section">Our Clients</a></li>
+                <li class="item"><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+
+        <div class="container tm-mt-big tm-mb-big">
+            <div class="row">
+              <div class="col-12 mx-auto tm-login-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h2 class="tm-block-title mb-4">Welcome to Onlinemeal, Login</h2>
+                    </div>
+                  </div>
+                  <div class="row mt-2">
+                    <div class="col-12">
+                      <form action="index.html" method="post" class="tm-login-form">
+                        <div class="form-group">
+                          <label for="username">Username</label>
+                          <input
+                            name="username"
+                            type="text"
+                            placeholder="Enter Username"
+                            class="form-control validate"
+                            id="username"
+                            value=""
+                            required
+                          />
+                        </div>
+                        <div class="form-group mt-3">
+                          <label for="password">Password</label>
+                          <input
+                            name="password"
+                            type="password"
+                            placeholder="Enter Password"
+                            class="form-control validate"
+                            id="password"
+                            value=""
+                            required
+                          />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="DOB">Date of birth </label>
+                            <input
+                              name="DOB"
+                              type="DOB"
+                              placeholder="Choose Date"
+                              class="form-control validate"
+                              id="DOB"
+                              value=""
+                              required
+                            />
+                          </div>
+                        <div class="form-group mt-4">
+                          <button
+                            type="submit"
+                            class="button button-primary btn-block text-uppercase"
+                          >
+                            Login
+                          </button>
+                        </div>
+                        <button class="mt-5 button button-primary btn-block text-uppercase">
+                          Forgot your password?
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <footer>
+            <div class="center">
+                copyright &copy;www.myonlinemeal.com.All right reserved!
+            </div>
+        </footer>
+        
+              <script src="js/jquery-3.3.1.min.js"></script>
+                <!-- https://jquery.com/download/ -->
+                <script src="jquery-ui-datepicker/jquery-ui.min.js"></script>
+                <!-- https://jqueryui.com/download/ -->
+                <script src="js/bootstrap.min.js"></script>
+                <!-- https://getbootstrap.com/ -->
+                <script>
+                  $(function() {
+                    $("#DOB").datepicker();
+                  });
+                </script>
+              
+    </body>
+</html>
