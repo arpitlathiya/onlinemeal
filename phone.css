@@ -7,6 +7,11 @@
     padding: 0px 7px;
     padding-bottom: 10px;
 }
+.navbar-nav{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 10px;
+}
 /*home section*/
 #home{
     height:350px;
